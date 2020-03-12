@@ -43,4 +43,6 @@ $db -> find(['content'=>123],['limit'=>5,'skip'=>2]);
 $db -> update(['_id'=>123],['$set'=>['content'=>456]]);
 ```
 ### delete
+```php
 $db -> delete($where);
+```
